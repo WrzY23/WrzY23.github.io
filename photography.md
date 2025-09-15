@@ -13,7 +13,7 @@ title: 摄影集
     <div class="photo-gallery">
         <!-- 这里可以放置您的摄影作品 -->
         <div class="photo-item">
-            <img src="https://via.placeholder.com/800x500" alt="风景示例">
+            <img src="D:\Users\yuanm\Photos\NikonZ30&Mate40Pro\PSed\20250819_golden_5.jpg" alt="风景示例">
             <div class="photo-caption">风景照片示例</div>
         </div>
         <div class="photo-item">
