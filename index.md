@@ -5,8 +5,8 @@ title: Home
 <section class="card">
     <h1>All that builds with you</h1>
     <p>Your AI pair programmer and so much more.</p>
-    <a href="#" class="btn">Get started for free</a>
-    <a href="#" class="btn" style="background: var(--bg-secondary); margin-left: 1rem;">View plans & pricing</a>
+    <a href="{{ '/about' | relative_url }}" class="btn">Get started for free</a>
+    <a href="{{ '/about' | relative_url }}" class="btn" style="background: var(--bg-secondary); margin-left: 1rem;">View plans & pricing</a>
 </section>
 
 <section class="card">
