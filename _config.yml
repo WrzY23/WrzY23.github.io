@@ -1,0 +1,17 @@
+# _config.yml
+title: yuan_blog | Developer  # 您的网站标题
+description: >- 
+  This is my personal portfolio and blog website.
+  # 网站描述
+baseurl: "" # 如果您的仓库名是 `WrzY23.github.io`，这里就留空
+url: "https://WrzY23.github.io" # 您的网站网址
+theme: minima # 我们使用 minima 作为基础，但将完全覆盖其样式
+
+# 插件
+plugins:
+  - jekyll-feed
+
+# 站内导航
+header_pages:
+  - index.md
+  - about.md

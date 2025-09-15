@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark"> <!-- 添加 data-theme 属性以便未来支持亮色/暗色切换 -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }} | {{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.scss' | relative_url }}">
+</head>
+
+<body>
+    <div class="glass-container"> <!-- 整个页面的玻璃容器 -->
+        {% include header.html %} <!-- 引入导航栏 -->
+
+        <main class="main-content">
+            {{ content }} <!-- Jekyll 会将页面内容注入这里 -->
+        </main>
+
+        {% include footer.html %} <!-- 引入页脚 -->
+    </div>
+</body>
+
+</html>
