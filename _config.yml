@@ -10,6 +10,7 @@ url: "https://WrzY23.github.io" # 您的网站网址
 # 插件
 plugins:
   - jekyll-feed
+  - jekyll-sass-converter
 
 # 站内导航
 header_pages:
