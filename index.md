@@ -1,20 +1,24 @@
 ---
 layout: default
-title: Home
+title: 首页
 ---
 <section class="card">
-    <h1>All that builds with you</h1>
-    <p>Your AI pair programmer and so much more.</p>
-    <a href="{{ '/about' | relative_url }}" class="btn">Get started for free</a>
-    <a href="{{ '/about' | relative_url }}" class="btn" style="background: var(--bg-secondary); margin-left: 1rem;">View plans & pricing</a>
+    <h1>欢迎来到我的个人空间</h1>
+    <p>探索思考，记录生活，分享技术与艺术</p>
+    <a href="{{ '/about' | relative_url }}" class="btn">了解更多</a>
 </section>
 
 <section class="card">
-    <h2>User Interface</h2>
+    <h2>内容导览</h2>
     <ul>
-        <li><strong>Customizable:</strong> Greet your own apps and the following apps. Allow for an easy use.</li>
-        <li><strong>Global Context:</strong> Understands your project's big picture.</li>
-        <li><strong>JVM & Sentences:</strong> Powerful support for your tech stack.</li>
-        <li><strong>Jaming:</strong> ...</li>
+        <li><a href="{{ '/ideas' | relative_url }}"><strong>学术与思考:</strong> 学习和科研中的灵感与想法</a></li>
+        <li><a href="{{ '/photography' | relative_url }}"><strong>摄影集:</strong> 记录光影中的美好瞬间</a></li>
+        <li><a href="{{ '/tech_notes' | relative_url }}"><strong>技术笔记:</strong> 实用技术路径的记录</a></li>
+        <li><a href="{{ '/writings' | relative_url }}"><strong>随笔:</strong> 随意的文字书写与生活感悟</a></li>
     </ul>
+</section>
+
+<section class="card">
+    <h2>最新更新</h2>
+    <p>敬请期待更多内容...</p>
 </section>

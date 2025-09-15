@@ -1,0 +1,73 @@
+--- --- // 在原有样式基础上添加特定内容板块的样式
+
+// 学术与思考页面特有样式
+.ideas-section {
+    border-left: 4px solid var(--accent);
+    padding-left: 1rem;
+}
+
+// 摄影集页面特有样式
+.photography-card {
+    background: linear-gradient(to bottom, var(--glass-bg), rgba(13, 17, 23, 0.8));
+}
+
+// 单个照片样式
+.photo-item {
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+}
+
+.photo-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.photo-item:hover img {
+    transform: scale(1.05);
+}
+
+.photo-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0.5rem;
+    color: white;
+    font-size: 0.9rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.photo-item:hover .photo-caption {
+    opacity: 1;
+}
+
+// 技术笔记页面特有样式
+.tech-card {
+    border-top: 3px solid #8a63d2;
+}
+
+.code-snippet {
+    background: var(--bg-secondary);
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-family: 'Courier New', monospace;
+    margin: 1rem 0;
+}
+
+// 随笔页面特有样式
+.writing-card {
+    border-top: 3px solid #58a6ff;
+}
+
+.quote {
+    font-style: italic;
+    border-left: 3px solid var(--accent);
+    padding-left: 1rem;
+    margin: 1rem 0;
+    color: var(--text-secondary);
+}

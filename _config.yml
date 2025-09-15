@@ -15,4 +15,8 @@ plugins:
 # 站内导航
 header_pages:
   - index.md
+  - ideas.md
+  - photography.md
+  - tech_notes.md
+  - writings.md
   - about.md
